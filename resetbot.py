@@ -16,13 +16,13 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Configuration
-CHANNEL_LINK = "https://t.me/Aniredirect"
-BACKUP_CHANNEL_LINK = "https://t.me/ScammerFuk"
-ADMIN_IDS = [6302016869]  # Replace with your admin user ID(s)
+CHANNEL_LINK = "https://t.me/anshuportal"
+BACKUP_CHANNEL_LINK = "https://t.me/dickcutter"
+ADMIN_IDS = [5316048641]  # Replace with your admin user ID(s)
 DATABASE_NAME = "bot_users.db"
 
 # Initialize bot
-bot = telebot.TeleBot(os.getenv("BOT_TOKEN") or "7558578299:AAHFs0hw01sBov9Q9B-kJoKUB7q2CN3CoJU")
+bot = telebot.TeleBot(os.getenv("BOT_TOKEN") or "8228490417:AAGBXnGVr3TjfcM018kGizt7AOj52hjIdHw")
 
 # Initialize database
 def init_db():
